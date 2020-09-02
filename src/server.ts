@@ -21,8 +21,8 @@ app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')));
 
 app.use(errors());
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log('🏃 Running Server');
+app.listen(process.env.PORT || 3333, () => {
+    console.log('🏃 Running Server!');
   });
 
 // app.listen(app.get('port'), function() {
